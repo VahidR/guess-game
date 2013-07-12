@@ -6,7 +6,7 @@ A cool guess game in HTML5 and CSS3
 Installation
 ------------
 Download the ZIP file or clone it form github. Then, extract it and browse to `src` directory, and open the `guess.html` in 
-in your favorite browser. That's all :) 
+your favorite browser. That's all :) 
 
 Introduction
 ------------
