@@ -27,7 +27,8 @@ var target_arrow = document.querySelector("#target_arrow");
 
 function resetHandler()
 {
-  window.location.reload()
+  window.location.reload(true);
+  
 }
 
 
