@@ -1,6 +1,6 @@
 (function(){
 
-//Game variables
+// initializing some variables
 var target = 0;
 var guess = 0;
 var remained = 10;
@@ -8,15 +8,14 @@ var made = 0;
 var gameState = "";
 var gameWon = false;
 
-//The output and output fieldss
 var output = document.querySelector("#output");
 
-//The guess button
+//The guess button and its relevant binding
 var guess_button = document.querySelector("button#guess");
 guess_button.style.cursor = "pointer";
 guess_button.addEventListener("click", clickHandler, false);
 
-//The reset button
+//The reset button and its relevant binding
 var reset_button = document.querySelector("button#reset");
 reset_button.style.cursor = "pointer";
 reset_button.addEventListener("click", resetHandler, false);
@@ -34,7 +33,7 @@ function resetHandler()
 
 function render()
 {
-  // the scale is 300px, but the floor output is in the scale of 100.
+  // the scale is 300px, but the Math.floor() is in the scale of 100. So we have to multiply it by 3.
   guess_arrow.style.left = guess * 3 + "px";
   target_arrow.style.left = target * 3 + "px";
 }
@@ -44,6 +43,7 @@ function clickHandler()
   play();
 }
 
+/* This is the Game's main fucntion */
 function play()
 {
   target = Math.floor(Math.random() * 100); 	
