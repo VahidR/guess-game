@@ -15,8 +15,6 @@ body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-
- 
 }
 
 
@@ -25,8 +23,8 @@ body {
   width: 300px;
   height: 33px;
   position: relative;
-  
 }
+
 
 #scale
 {
@@ -38,6 +36,7 @@ body {
   left: 0px;
   background-image: url(../images/scale.png);
 }
+
 
 #guess_arrow
 {
@@ -55,6 +54,7 @@ body {
   transition: left 0.5s ease-out 0s;
 }
 
+
 #target_arrow
 {
   width: 17px;
@@ -69,6 +69,7 @@ body {
   -moz-transition: left 0.5s ease-out 0s;
   transition: left 0.5s ease-out 0s;
 }
+
 
 button
 {
@@ -96,12 +97,14 @@ button
   user-select: none;
 }
 
+
 button:hover
 {
  background: -webkit-linear-gradient(top, #acc7a3, #506651);
  background: -moz-linear-gradient(top, #acc7a3, #506651);
  background: linear-gradient(top, #acc7a3, #506651);
 }
+
 
 button:active
 {
