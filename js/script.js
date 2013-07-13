@@ -1,4 +1,5 @@
 (function(){
+"use strict";	
 
 // initializing some variables
 var target = 0;
