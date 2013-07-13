@@ -53,7 +53,7 @@ function play()
   
   remained = remained - 1;
   made = made + 1;
-  gameState =   " Guess: " + made + ", Remaining: " + remained + 
+  gameState =   " Tried: " + made + ", Remained: " + remained + 
 				"<br>"+
 				"Your guess: " + guess + ", Target: " + target;
   
